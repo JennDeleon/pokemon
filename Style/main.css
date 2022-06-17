@@ -1,0 +1,19 @@
+body {
+    background-color: lightgray;
+}
+
+
+.btn {
+    padding: .45rem 1.5rem .35rem;
+    border: 1px solid white !important;
+    color: white !important;
+}
+
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #c471f5;
+
+    background: -webkit-linear-gradient(to right, rgba(196, 113, 245, 1), rgba(250, 113, 205, 1));
+
+    background: linear-gradient(to right, rgba(196, 113, 245, 1), rgba(250, 113, 205, 1))
+}
